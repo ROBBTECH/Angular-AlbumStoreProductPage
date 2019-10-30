@@ -8,10 +8,10 @@ import { Album } from '../album';
 })
 export class ProductDescriptionComponent implements OnInit {
 albumInfo: Album;
-  constructor(private _productService: ProductService) { }
+  constructor(private _ProductService: ProductService) { }
 
   ngOnInit() {
-    this._productService.getAlbum(1).subscribe(response => this.albumInfo = response);
+    this._ProductService.getAlbum(1).subscribe(response => this.albumInfo = response);
   }
 
 }

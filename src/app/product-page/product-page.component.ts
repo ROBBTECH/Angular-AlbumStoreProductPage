@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import * as core from '@angular/core';
 
-@Component({
+@core.Component({
   selector: 'app-product-page',
   templateUrl: './product-page.component.html',
   styleUrls: ['./product-page.component.css']
 })
-export class ProductPageComponent implements OnInit {
+export class ProductPageComponent implements core.OnInit {
 
   constructor() { }
 

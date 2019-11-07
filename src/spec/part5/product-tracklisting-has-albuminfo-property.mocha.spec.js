@@ -19,6 +19,6 @@ describe('ProductTracklisting', function() {
     assert(Array.isArray(file.match(re2)), "The `albumInfo` property doesn't have the correct type declaration.");
 
     let albumInfoType = match2[1].trim();
-    assert(albumInfoType.includes(any='Album'), "The `albumInfo` type isn't declared as `Album`.");
+    assert(albumInfoType.includes('Album'), "The `albumInfo` type isn't declared as `Album`.");
   });
 });
